@@ -20,6 +20,22 @@
 
 ## English
 
+## 📊 Architecture Diagram
+
+```mermaid
+graph LR
+    A[Raw Features] --> B[Feature Store]
+    B --> C[Online Serving]
+    B --> D[Offline Serving]
+    C --> E[Real-time ML]
+    D --> F[Batch Training]
+    
+    style A fill:#e1f5ff
+    style E fill:#c8e6c9
+    style B fill:#fff9c4
+```
+
+
 ## 🎯 Features
 
 - **Feature Store**: Feature Store (Feast)
