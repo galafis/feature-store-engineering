@@ -8,7 +8,6 @@
 ![MLflow](https://img.shields.io/badge/MLflow-blue)
 ![Redis](https://img.shields.io/badge/Redis-blue)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Status](https://img.shields.io/badge/status-active-success.svg)
 
 **Production-ready feature store with Feast for ML feature management, versioning, and online/offline serving**
 
